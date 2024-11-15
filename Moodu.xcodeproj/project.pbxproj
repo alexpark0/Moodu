@@ -14,6 +14,14 @@
 		1E7AD6702CE7D1B300945EA7 /* MooduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD66F2CE7D1B300945EA7 /* MooduTests.swift */; };
 		1E7AD67A2CE7D1B300945EA7 /* MooduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6792CE7D1B300945EA7 /* MooduUITests.swift */; };
 		1E7AD67C2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD67B2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift */; };
+		1E7AD68F2CE7D6AF00945EA7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7AD68E2CE7D6AF00945EA7 /* WidgetKit.framework */; };
+		1E7AD6912CE7D6AF00945EA7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7AD6902CE7D6AF00945EA7 /* SwiftUI.framework */; };
+		1E7AD6942CE7D6B000945EA7 /* MooduWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6932CE7D6AF00945EA7 /* MooduWidgetBundle.swift */; };
+		1E7AD6962CE7D6B000945EA7 /* MooduWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6952CE7D6B000945EA7 /* MooduWidgetLiveActivity.swift */; };
+		1E7AD6982CE7D6B000945EA7 /* MooduWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6972CE7D6B000945EA7 /* MooduWidget.swift */; };
+		1E7AD69A2CE7D6B000945EA7 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6992CE7D6B000945EA7 /* AppIntent.swift */; };
+		1E7AD69C2CE7D6B200945EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7AD69B2CE7D6B200945EA7 /* Assets.xcassets */; };
+		1E7AD6A02CE7D6B200945EA7 /* MooduWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1E7AD68C2CE7D6AF00945EA7 /* MooduWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,28 @@
 			remoteGlobalIDString = 1E7AD65A2CE7D1B100945EA7;
 			remoteInfo = Moodu;
 		};
+		1E7AD69E2CE7D6B200945EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E7AD6532CE7D1B000945EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E7AD68B2CE7D6AF00945EA7;
+			remoteInfo = MooduWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E7AD6A42CE7D6B200945EA7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1E7AD6A02CE7D6B200945EA7 /* MooduWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E7AD65B2CE7D1B100945EA7 /* Moodu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +73,15 @@
 		1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7AD6792CE7D1B300945EA7 /* MooduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduUITests.swift; sourceTree = "<group>"; };
 		1E7AD67B2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E7AD68C2CE7D6AF00945EA7 /* MooduWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MooduWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7AD68E2CE7D6AF00945EA7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1E7AD6902CE7D6AF00945EA7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1E7AD6932CE7D6AF00945EA7 /* MooduWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduWidgetBundle.swift; sourceTree = "<group>"; };
+		1E7AD6952CE7D6B000945EA7 /* MooduWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		1E7AD6972CE7D6B000945EA7 /* MooduWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduWidget.swift; sourceTree = "<group>"; };
+		1E7AD6992CE7D6B000945EA7 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		1E7AD69B2CE7D6B200945EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E7AD69D2CE7D6B200945EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E7AD6892CE7D6AF00945EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD6912CE7D6AF00945EA7 /* SwiftUI.framework in Frameworks */,
+				1E7AD68F2CE7D6AF00945EA7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +124,8 @@
 				1E7AD65D2CE7D1B100945EA7 /* Moodu */,
 				1E7AD66E2CE7D1B300945EA7 /* MooduTests */,
 				1E7AD6782CE7D1B300945EA7 /* MooduUITests */,
+				1E7AD6922CE7D6AF00945EA7 /* MooduWidget */,
+				1E7AD68D2CE7D6AF00945EA7 /* Frameworks */,
 				1E7AD65C2CE7D1B100945EA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +136,7 @@
 				1E7AD65B2CE7D1B100945EA7 /* Moodu.app */,
 				1E7AD66B2CE7D1B300945EA7 /* MooduTests.xctest */,
 				1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */,
+				1E7AD68C2CE7D6AF00945EA7 /* MooduWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +177,28 @@
 			path = MooduUITests;
 			sourceTree = "<group>";
 		};
+		1E7AD68D2CE7D6AF00945EA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD68E2CE7D6AF00945EA7 /* WidgetKit.framework */,
+				1E7AD6902CE7D6AF00945EA7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E7AD6922CE7D6AF00945EA7 /* MooduWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD6932CE7D6AF00945EA7 /* MooduWidgetBundle.swift */,
+				1E7AD6952CE7D6B000945EA7 /* MooduWidgetLiveActivity.swift */,
+				1E7AD6972CE7D6B000945EA7 /* MooduWidget.swift */,
+				1E7AD6992CE7D6B000945EA7 /* AppIntent.swift */,
+				1E7AD69B2CE7D6B200945EA7 /* Assets.xcassets */,
+				1E7AD69D2CE7D6B200945EA7 /* Info.plist */,
+			);
+			path = MooduWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +209,12 @@
 				1E7AD6572CE7D1B100945EA7 /* Sources */,
 				1E7AD6582CE7D1B100945EA7 /* Frameworks */,
 				1E7AD6592CE7D1B100945EA7 /* Resources */,
+				1E7AD6A42CE7D6B200945EA7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1E7AD69F2CE7D6B200945EA7 /* PBXTargetDependency */,
 			);
 			name = Moodu;
 			productName = Moodu;
@@ -183,6 +257,23 @@
 			productReference = 1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1E7AD68B2CE7D6AF00945EA7 /* MooduWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7AD6A12CE7D6B200945EA7 /* Build configuration list for PBXNativeTarget "MooduWidgetExtension" */;
+			buildPhases = (
+				1E7AD6882CE7D6AF00945EA7 /* Sources */,
+				1E7AD6892CE7D6AF00945EA7 /* Frameworks */,
+				1E7AD68A2CE7D6AF00945EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooduWidgetExtension;
+			productName = MooduWidgetExtension;
+			productReference = 1E7AD68C2CE7D6AF00945EA7 /* MooduWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +295,9 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 1E7AD65A2CE7D1B100945EA7;
 					};
+					1E7AD68B2CE7D6AF00945EA7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 				};
 			};
 			buildConfigurationList = 1E7AD6562CE7D1B000945EA7 /* Build configuration list for PBXProject "Moodu" */;
@@ -222,6 +316,7 @@
 				1E7AD65A2CE7D1B100945EA7 /* Moodu */,
 				1E7AD66A2CE7D1B300945EA7 /* MooduTests */,
 				1E7AD6742CE7D1B300945EA7 /* MooduUITests */,
+				1E7AD68B2CE7D6AF00945EA7 /* MooduWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD68A2CE7D6AF00945EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD69C2CE7D6B200945EA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +382,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E7AD6882CE7D6AF00945EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD6942CE7D6B000945EA7 /* MooduWidgetBundle.swift in Sources */,
+				1E7AD69A2CE7D6B000945EA7 /* AppIntent.swift in Sources */,
+				1E7AD6962CE7D6B000945EA7 /* MooduWidgetLiveActivity.swift in Sources */,
+				1E7AD6982CE7D6B000945EA7 /* MooduWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +405,11 @@
 			isa = PBXTargetDependency;
 			target = 1E7AD65A2CE7D1B100945EA7 /* Moodu */;
 			targetProxy = 1E7AD6762CE7D1B300945EA7 /* PBXContainerItemProxy */;
+		};
+		1E7AD69F2CE7D6B200945EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E7AD68B2CE7D6AF00945EA7 /* MooduWidgetExtension */;
+			targetProxy = 1E7AD69E2CE7D6B200945EA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +536,7 @@
 		1E7AD6802CE7D1B300945EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +565,7 @@
 		1E7AD6812CE7D1B300945EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +663,58 @@
 			};
 			name = Release;
 		};
+		1E7AD6A22CE7D6B200945EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MooduWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MooduWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.Moodu.MooduWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7AD6A32CE7D6B200945EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MooduWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MooduWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.Moodu.MooduWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +750,15 @@
 			buildConfigurations = (
 				1E7AD6862CE7D1B300945EA7 /* Debug */,
 				1E7AD6872CE7D1B300945EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7AD6A12CE7D6B200945EA7 /* Build configuration list for PBXNativeTarget "MooduWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AD6A22CE7D6B200945EA7 /* Debug */,
+				1E7AD6A32CE7D6B200945EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

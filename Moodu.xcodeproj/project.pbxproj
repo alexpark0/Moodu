@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7AD65F2CE7D1B100945EA7 /* MooduApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD65E2CE7D1B100945EA7 /* MooduApp.swift */; };
+		1E7AD6612CE7D1B100945EA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6602CE7D1B100945EA7 /* ContentView.swift */; };
+		1E7AD6632CE7D1B300945EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7AD6622CE7D1B300945EA7 /* Assets.xcassets */; };
+		1E7AD6662CE7D1B300945EA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7AD6652CE7D1B300945EA7 /* Preview Assets.xcassets */; };
+		1E7AD6702CE7D1B300945EA7 /* MooduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD66F2CE7D1B300945EA7 /* MooduTests.swift */; };
+		1E7AD67A2CE7D1B300945EA7 /* MooduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD6792CE7D1B300945EA7 /* MooduUITests.swift */; };
+		1E7AD67C2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7AD67B2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E7AD66C2CE7D1B300945EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E7AD6532CE7D1B000945EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E7AD65A2CE7D1B100945EA7;
+			remoteInfo = Moodu;
+		};
+		1E7AD6762CE7D1B300945EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E7AD6532CE7D1B000945EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E7AD65A2CE7D1B100945EA7;
+			remoteInfo = Moodu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E7AD65B2CE7D1B100945EA7 /* Moodu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7AD65E2CE7D1B100945EA7 /* MooduApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduApp.swift; sourceTree = "<group>"; };
+		1E7AD6602CE7D1B100945EA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E7AD6622CE7D1B300945EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E7AD6652CE7D1B300945EA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E7AD66B2CE7D1B300945EA7 /* MooduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7AD66F2CE7D1B300945EA7 /* MooduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduTests.swift; sourceTree = "<group>"; };
+		1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7AD6792CE7D1B300945EA7 /* MooduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduUITests.swift; sourceTree = "<group>"; };
+		1E7AD67B2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7AD6582CE7D1B100945EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6682CE7D1B300945EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6722CE7D1B300945EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7AD6522CE7D1B000945EA7 = {
+			isa = PBXGroup;
+			children = (
+				1E7AD65D2CE7D1B100945EA7 /* Moodu */,
+				1E7AD66E2CE7D1B300945EA7 /* MooduTests */,
+				1E7AD6782CE7D1B300945EA7 /* MooduUITests */,
+				1E7AD65C2CE7D1B100945EA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7AD65C2CE7D1B100945EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD65B2CE7D1B100945EA7 /* Moodu.app */,
+				1E7AD66B2CE7D1B300945EA7 /* MooduTests.xctest */,
+				1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7AD65D2CE7D1B100945EA7 /* Moodu */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD65E2CE7D1B100945EA7 /* MooduApp.swift */,
+				1E7AD6602CE7D1B100945EA7 /* ContentView.swift */,
+				1E7AD6622CE7D1B300945EA7 /* Assets.xcassets */,
+				1E7AD6642CE7D1B300945EA7 /* Preview Content */,
+			);
+			path = Moodu;
+			sourceTree = "<group>";
+		};
+		1E7AD6642CE7D1B300945EA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD6652CE7D1B300945EA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E7AD66E2CE7D1B300945EA7 /* MooduTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD66F2CE7D1B300945EA7 /* MooduTests.swift */,
+			);
+			path = MooduTests;
+			sourceTree = "<group>";
+		};
+		1E7AD6782CE7D1B300945EA7 /* MooduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E7AD6792CE7D1B300945EA7 /* MooduUITests.swift */,
+				1E7AD67B2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift */,
+			);
+			path = MooduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E7AD65A2CE7D1B100945EA7 /* Moodu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7AD67F2CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "Moodu" */;
+			buildPhases = (
+				1E7AD6572CE7D1B100945EA7 /* Sources */,
+				1E7AD6582CE7D1B100945EA7 /* Frameworks */,
+				1E7AD6592CE7D1B100945EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodu;
+			productName = Moodu;
+			productReference = 1E7AD65B2CE7D1B100945EA7 /* Moodu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E7AD66A2CE7D1B300945EA7 /* MooduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7AD6822CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "MooduTests" */;
+			buildPhases = (
+				1E7AD6672CE7D1B300945EA7 /* Sources */,
+				1E7AD6682CE7D1B300945EA7 /* Frameworks */,
+				1E7AD6692CE7D1B300945EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E7AD66D2CE7D1B300945EA7 /* PBXTargetDependency */,
+			);
+			name = MooduTests;
+			productName = MooduTests;
+			productReference = 1E7AD66B2CE7D1B300945EA7 /* MooduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E7AD6742CE7D1B300945EA7 /* MooduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7AD6852CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "MooduUITests" */;
+			buildPhases = (
+				1E7AD6712CE7D1B300945EA7 /* Sources */,
+				1E7AD6722CE7D1B300945EA7 /* Frameworks */,
+				1E7AD6732CE7D1B300945EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E7AD6772CE7D1B300945EA7 /* PBXTargetDependency */,
+			);
+			name = MooduUITests;
+			productName = MooduUITests;
+			productReference = 1E7AD6752CE7D1B300945EA7 /* MooduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E7AD6532CE7D1B000945EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1E7AD65A2CE7D1B100945EA7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1E7AD66A2CE7D1B300945EA7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E7AD65A2CE7D1B100945EA7;
+					};
+					1E7AD6742CE7D1B300945EA7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E7AD65A2CE7D1B100945EA7;
+					};
+				};
+			};
+			buildConfigurationList = 1E7AD6562CE7D1B000945EA7 /* Build configuration list for PBXProject "Moodu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E7AD6522CE7D1B000945EA7;
+			productRefGroup = 1E7AD65C2CE7D1B100945EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7AD65A2CE7D1B100945EA7 /* Moodu */,
+				1E7AD66A2CE7D1B300945EA7 /* MooduTests */,
+				1E7AD6742CE7D1B300945EA7 /* MooduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7AD6592CE7D1B100945EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD6662CE7D1B300945EA7 /* Preview Assets.xcassets in Resources */,
+				1E7AD6632CE7D1B300945EA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6692CE7D1B300945EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6732CE7D1B300945EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7AD6572CE7D1B100945EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD6612CE7D1B100945EA7 /* ContentView.swift in Sources */,
+				1E7AD65F2CE7D1B100945EA7 /* MooduApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6672CE7D1B300945EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD6702CE7D1B300945EA7 /* MooduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7AD6712CE7D1B300945EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7AD67A2CE7D1B300945EA7 /* MooduUITests.swift in Sources */,
+				1E7AD67C2CE7D1B300945EA7 /* MooduUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E7AD66D2CE7D1B300945EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E7AD65A2CE7D1B100945EA7 /* Moodu */;
+			targetProxy = 1E7AD66C2CE7D1B300945EA7 /* PBXContainerItemProxy */;
+		};
+		1E7AD6772CE7D1B300945EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E7AD65A2CE7D1B100945EA7 /* Moodu */;
+			targetProxy = 1E7AD6762CE7D1B300945EA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E7AD67D2CE7D1B300945EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E7AD67E2CE7D1B300945EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E7AD6802CE7D1B300945EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.Moodu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7AD6812CE7D1B300945EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.Moodu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E7AD6832CE7D1B300945EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.MooduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moodu";
+			};
+			name = Debug;
+		};
+		1E7AD6842CE7D1B300945EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.MooduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moodu";
+			};
+			name = Release;
+		};
+		1E7AD6862CE7D1B300945EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.MooduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moodu;
+			};
+			name = Debug;
+		};
+		1E7AD6872CE7D1B300945EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexpark.MooduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moodu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7AD6562CE7D1B000945EA7 /* Build configuration list for PBXProject "Moodu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AD67D2CE7D1B300945EA7 /* Debug */,
+				1E7AD67E2CE7D1B300945EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7AD67F2CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "Moodu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AD6802CE7D1B300945EA7 /* Debug */,
+				1E7AD6812CE7D1B300945EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7AD6822CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "MooduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AD6832CE7D1B300945EA7 /* Debug */,
+				1E7AD6842CE7D1B300945EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7AD6852CE7D1B300945EA7 /* Build configuration list for PBXNativeTarget "MooduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AD6862CE7D1B300945EA7 /* Debug */,
+				1E7AD6872CE7D1B300945EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E7AD6532CE7D1B000945EA7 /* Project object */;
+}
